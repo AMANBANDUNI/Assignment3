@@ -165,7 +165,7 @@ body{
     .menuclass{
         position: relative;
         display: inline-block;
-        left: 350px;
+        left: 300px;
     }
     .nav{
         display: none;
