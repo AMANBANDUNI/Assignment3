@@ -87,9 +87,9 @@ i{
         border-radius: 5px;
         width: 300px;
         height: 300px;
-        /* position: absolute;
-        top: 40%;
-        left: 20%; */
+        position: absolute;
+        top: 35%;
+        left: 20%; 
     }
     /* .body a:hover{
         font-size: 20px;
@@ -127,12 +127,12 @@ i{
         border-radius: 5px;
         cursor: pointer;
     }
-    .menuclass{
+    /*.menuclass{
         position: relative;
         display: inline-block;
         left: 350px;
     }
     .menuclass:hover .nav{
         display: block;
-    }
+    }*/
 }
