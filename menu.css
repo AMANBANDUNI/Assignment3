@@ -1,0 +1,137 @@
+body{
+    background-image: url('collection.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    /* position: relative; */
+    /* width: 500px;
+    height: auto; */
+}
+.dropbtn{
+    font-size: 20px;
+    margin: 5px;
+    padding: 15px;
+    /* background-color: cyan;*/
+    color: white; 
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    background-image: url(contact-us2.jpg);
+}
+
+.dropbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown{
+    /* position: relative; */
+    display: block;
+}
+
+#home a{
+    color: black;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: red;
+}
+.nav .nav-content a{
+    color: white;
+}
+.nav-content a:hover{
+    color: chocolate;
+}
+#home a:hover{
+    color: chocolate;
+}
+
+
+.menubtn{
+    display: none;
+}
+
+#resume{
+    position: relative;
+}
+
+#resume1 img{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 800px;
+}
+
+#resume2 img{
+    position: absolute;
+    top: 1200px;
+    left: 350px;
+    width: 800px;
+}
+
+
+@media only screen and (max-width: 1000px){
+    #resume1 img{
+        position: absolute;
+        top: 250px;
+        left: 50px;
+        width: 700px;
+    }
+    
+    #resume2 img{
+        position: absolute;
+        top: 800px;
+        left: 50px;
+        width: 700px;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .menubtn{
+        display: block;
+        font-size: 20px;
+        margin: 10px;
+        padding: 5px 10px 5px 10px;
+        border: none;
+        background-image: url(menu.jpg);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* .menuclass{
+        position: relative;
+        display: inline-block;
+        left: 350px;
+    } */
+
+    
+    .nav{
+        display: none;
+        position: absolute;
+        right: 0px;
+    }
+    .menuclass:hover .nav{
+        display: block;
+    }
+
+    #resume1 img{
+        position: absolute;
+        top: 250px;
+        left: 50px;
+        width: 400px;
+    }
+    
+    #resume2 img{
+        position: absolute;
+        top: 800px;
+        left: 50px;
+        width: 400px;
+    }
+
+
+}

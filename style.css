@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("desk.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+/* header{
+    background-image: url("half-sunlight.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+} */
+
+.nav{
+    list-style-type: none;
+    float: right;
+    display: block;
+}
+
+.nav-content{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.nav-content a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.15s ease;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    float: left;
+    position: fixed;
+    opacity: 0.7;
+}
+
+#home a{
+    background-color: white;
+}
+
+.nav-content a:hover{
+    background-color: white;
+    box-shadow: 0 5px 10px 0 black;
+    color: chocolate;
+}
+
+/* .text{
+    position: absolute;
+    left: 35%;
+    bottom: 35%;
+    position: fixed;
+    /* color: blanchedalmond; */
+    color: cadetblue;
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    opacity: 0.5;
+    text-align: center;
+} */
+
+.head{
+    max-width: 100%;
+    margin: auto;
+}
+
+
+.nav {
+    padding-left: 55%;
+    position: fixed;
+}
+
+.menubtn{
+    display: none;
+}
+
+
+#profile, .profile{
+    color: white;
+    position: absolute;
+    top: 10%;
+    margin: 5% 10% 0 10%;
+    font-size: 1.5em;
+}
+
+.tech-content{
+    font-size:200% ;
+    display: inline-block;
+    margin: 0 5% 0 5%;
+}
+
+
+@media only screen and (max-width: 720px){
+    .text{
+        position: fixed;
+        top: 38%;
+        right: 35%;
+    }
+    .nav{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .head{
+        max-width: 100%;
+        margin: auto;
+    }
+    .logo{
+        position: absolute;
+        top: 20px;
+        margin-left: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px){
+    /* .text{
+        position: fixed;
+        top: 38%;
+        right: 35%;
+    }
+    .nav{
+        margin-left: 15%;
+    } */
+    .head{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .head .nav .nav-content{
+        display: block;
+        margin-right: 20px;
+    }
+    
+    .logo{
+        position: absolute;
+        top: 20px;
+        margin-left: 10px;
+    }
+    .menubtn{
+        display: block;
+        font-size: 20px;
+        margin: 10px;
+        padding: 5px 10px 5px 10px;
+        border: none;
+        background-image: url(menu.jpg);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .menuclass{
+        position: relative;
+        display: inline-block;
+        left: 350px;
+    }
+    .nav{
+        display: none;
+        position: absolute;
+        right: 0px;
+    }
+    .menuclass:hover .nav{
+        display: block;
+    }
+
+    #profile{
+        /* color: white;
+        position: absolute;
+        top: 10%;
+        margin: 5% 10% 0 10%; */
+        position: absolute;
+        top: 17%;
+        font-size: 1em;
+    }
+
+    /* @media only screen and (max-width: 300px){
+        .dp img{
+            position: absolute;
+            top: 10px;
+        }
+    } */
+}
